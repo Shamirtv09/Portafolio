@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald :wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Quemado&family=Rubik:ital,wgh t @0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap') ;
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: #1d1aff;
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: transparent;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nombre{
+    color: #68e9f8;
+    font-size: 50px;
+}
+
+nav a{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+nav a:hover{
+    color: #577eda;
+}
+
+.titulo{
+    border:none;
+    border-radius: 50px;
+    margin: 31px;
+    background: #6e82ff;
+    
+}
+
+.titulo__div{
+    margin: 45px;
+    display: flex;
+    padding: 70px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    font-family: 'Montserrat, sans-sarif' ;
+}
+
+.img_{
+    border-radius: 50%;
+    width: 200px;
+    box-shadow:  3px 6px 24px blue;
+    
+}
+
+.titulo__div h2{
+    font-size: 44px;
+}
+
+.titulo__div h3{
+    font-size: 30px;
+}
+
+.redes__li{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.redes_box{
+    padding-right: 10px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+.about{
+    border:none;
+    border-radius: 55px;
+    margin: 25px;
+    padding: 50px;
+    background: #6e82ff;
+}
+
+.about__container{
+    text-align: center;
+
+}
+
+.about_titulo{
+    font-size: 30px;
+    font-family: "Rubik Burned", sistema-ui;
+    
+}
+
+.lit{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conocimientos{
+    margin: 25px;
+    padding: 25px;
+    background: #dbe6ff;
+    border-radius: 46px;
+    text-align: center;
+}
+
+.titulo_conocimiento{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Rubik Burned", sistema-ui;
+}
+
+.conocimientos_lin{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hobbies{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #dbe6ff;
+
+}
+
+.hobbies__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Rubik Burned", sistema-ui;
+}
+
+.hobbies_li{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__1{
+    width: 55px;
+}
+
+.contact{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #6e82ff;
+    border-radius: 30px;
+}
+
+.contact__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Rubik Burned", sistema-ui;
+}
+
+#contact-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.shadow__btn {
+    padding: 9px 10px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+
+.shadow__btn {
+    background: #1f1db6;
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
+  
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+}
+
+footer{
+ background-color: black;
+ text-align: center;
+ padding: 10px;
+ color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        flex-direction: column;
+        height: 112px;
+        padding: 26px;
+        background: #eff5ff;
+    }
+
+    .nombre {
+        font-size: 42px;
+        margin: 10px;
+        color: #0031ff;
+        
+    }
+    
+    
+
+    .titulo__div {
+        flex-direction: column;
+        align-items: center;
+        padding: 22px;
+    }
+
+    .titulo__div h2 {
+        font-size: 27px;
+    }
+
+    .titulo__div h3 {
+        font-size: 17px;
+    }
+
+    .conocimientos_lin {
+        flex-direction: column;
+    }
+    .hobbies_li {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact-form {
+        width: 75%;
+    }
+}
